@@ -80,12 +80,9 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
-.env
-.env.*
 .env.development.local
 .env.test.local
 .env.production.local
-.env.local
 .secrets
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -264,7 +261,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -316,3 +312,7 @@ myenv
 
 # redis
 *.rdb
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
